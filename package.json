@@ -1,0 +1,36 @@
+{
+  "name": "react-native-pushdy",
+  "title": "React Native Pushdy",
+  "version": "0.0.11",
+  "description": "Pushdy Sdk implement for React Native",
+  "main": "index.js",
+  "scripts": {
+    "publish-to-npm": "npm publish",
+    "publish-dry-run": "npm publish --dry-run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "http://pushdy.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pushdy/react-native-pushdy.git",
+    "baseUrl": "https://github.com/Pushdy/react-native-pushdy"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Pushdy",
+    "email": "contact@pushdy.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
+  }
+}
